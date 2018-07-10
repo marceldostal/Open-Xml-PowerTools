@@ -4668,6 +4668,13 @@ listSeparator
         public static readonly XName slicer = sle + "slicer";
     }
 
+    public static class SVG
+    {
+        public static readonly XNamespace svg =
+            "http://schemas.microsoft.com/office/drawing/2016/SVG/main";
+        public static readonly XName blip = svg + "svgBlip";
+    }
+
     public static class VML
     {
         public static readonly XNamespace vml =
